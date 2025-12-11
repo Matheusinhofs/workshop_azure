@@ -1,0 +1,27 @@
+- Workshop Azure para Engenheiro de Dados
+    - Cloud:
+        - Tem características que permite maior desenvolvimento de aplicações:
+            - Acessibilidade
+            - Escala
+            - Custo-benefício
+            - Segurança
+        - Ou seja, você deixa de ficar se ocupando com muitas questões de infraestrutura
+        - Cloud não é repetir o On-Premisse
+        - Não é só buscar armazenar dados e informações
+        - E nem sempre vai ser barato, já que alguma vez pode deixar algo ligado
+    - On Site (servidor próprio e configura tudo) -> IaaS (VMs, EC2,...) -> PaaS (databriks, fabric,...) -> SaaS (teams, whatsapp,...)
+    - Cross Cloud: ter aplicações em diferentes clouds e conversar elas. 
+
+    - Fabric:
+        - Paas da Microsoft que utiliza vários SaaS dentro dela (Power BI, Data Factory, Data Warehouse,...), dando maior comodidade ao desenvolvedor
+        - OneLake concentra as informações de várias fontes em uma única camada
+        - Projeto de tabela stage carregando para o modelo semântico 
+            - Cria-se o banco de dados utilizando a cloud que deseja
+            - Em seguida ajusta-se o script que lê o CSV
+            - Depois o script vai fazer a requisição da API da CoinBase
+            - É possível extrair dados de diversas formas, por pipelines no Data Factory, por spark, por notebooks,...
+    
+    - Storage acount se assemelha ao que ocorre dentro da AWS utilizando S3 
+        - Dentro da aula foi realizado um projeto de site estático utilizando o currículo e o index.html 
+        - E foi realizado um projeto de backup de arquivos utilizando o container da Azure
+        
