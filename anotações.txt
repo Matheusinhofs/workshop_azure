@@ -25,3 +25,19 @@
         - Dentro da aula foi realizado um projeto de site estático utilizando o currículo e o index.html 
         - E foi realizado um projeto de backup de arquivos utilizando o container da Azure
         
+    - Outro assunto abordado foi a criação de um banco de dados SQL Server na Azure, como que são as queries e etc.
+    - Uso do azure VM para um processo de ETL utilizando Docker
+        - O VM se comporta como um EC2 e com isso você tem um IaaS e precisa configurar ele. Com o docker alguns processos são "facilitados"
+            - Em um comando o docker cria a imagem e roda o script do pipeline, independente do ambiente que está 
+        - O projeto de ETL de dados de API da Coinbase foi utilizado como exemplo, e utilizado para o pipeline do docker 
+        - Depois que sobe a máquina virtual, faz um git clone do projeto, abre o docker, atualiza a máquina e executa as funções do docker
+    - Azure Web App: serviço da azure que funciona como plataforma, em que já inicia com runtime; Já roda uma máquina quando configura ele, sem necessitar de docker e etc.
+        - Muito semelhante ao AWS Amplify, Render e etc, com o intuito de diminuir a necessidade de gerenciar sistema, facilitar a criação do ambiente da aplicação
+        - Interessante para aplicações como dashboard em streamlit, páginas web e etc. 
+        
+
+
+
+
+
+
